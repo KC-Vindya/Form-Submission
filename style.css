@@ -1,0 +1,42 @@
+body {
+    background-color: #DFF2D8;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+h2 {
+    color: darkgreen;
+}
+form {
+    margin: 20px auto;
+    width: 50%;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
+input, textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #4CAF50;
+}
+button {
+    background: darkgreen;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+}
+th, td {
+    border: 1px solid #4CAF50;
+    padding: 10px;
+}
+th {
+    background: darkgreen;
+    color: white;
+}

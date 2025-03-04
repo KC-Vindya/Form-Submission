@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submission</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>📋 Submit Your Details</h2>
+    
+    <form id="contactForm">
+        <input type="text" id="name" name="name" placeholder="Enter Name" required>
+        <input type="email" id="email" name="email" placeholder="Enter Email" required>
+        <input type="text" id="mobile" name="mobile" placeholder="Enter Mobile" required>
+        <textarea id="message" name="message" placeholder="Enter Message" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="responseMessage"></div>
+
+    <h2>📋 Submitted Data</h2>
+
+    <input type="text" id="search" placeholder="🔍 Search submissions...">
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Mobile</th>
+                <th>Message</th>
+            </tr>
+        </thead>
+        <tbody id="dataDisplay">
+            
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
